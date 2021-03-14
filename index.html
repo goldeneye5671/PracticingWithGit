@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Your markup goes here. -->
+  <fieldset>
+    <legend>Add Pet</legend>
+    <form action="/pets" method="post">
+      <label for="name" id="name_label">Name</label>
+      <input type="text" name="pet_name" id="name">
+
+      <label for="type" id="type_label">Type</label>
+      <select name="pet_type" id="type">
+        <option value="Cat">Cat</option>
+        <option value="Dog">Dog</option>
+        <option value="Hamster">Hamster</option>
+        <option value="Other">Other</option>
+        <option value="Zebra">Zebra</option>
+      </select>
+
+      <label for="pet_bio" id="pet_bio_label">Biography</label>
+      <textarea name="pet_bio" id="bio" cols="30" rows="10"></textarea>
+      
+      <label for="pet_owner_email">Owner's email </label>
+      <input type="email" name="pet_owner_email" id="owner-email">
+
+      <button id="new-pet-submission-button">Create new pet</button>
+      <button type="reset">Reset</button>
+    </label>
+  </form>
+  </fieldset>
+  <br>
+  <div class="card"> 
+    <img id="backgroundimg" src="images/desert.jpg" alt="">
+    <div id="content">
+      <div id="container">
+        <img id="userimg" src="images/person-avatar.jpg" alt="">
+          <div id="information">
+            <h1 id="title">Title goes here</h1>
+            <h2 id="secondary">Secondary Text</h2>
+          </div>
+        <p id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet cum magni. Omnis nisi soluta, maiores doloribus quos repellendus expedita esse harum nesciunt rem ipsa, illo ea! Sint, repellat ipsum.</p>
+      </div>
+    </div> 
+  </div>
+
+</body>
+</html>
